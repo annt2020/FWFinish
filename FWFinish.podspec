@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint AnntDemoTest.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FWFinish.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AnntDemoTest"
-  spec.version      = "0.1.0"
-  spec.summary      = "Swift AnntDemoTest."
+  spec.name         = "FWFinish"
+  spec.version      = "0.0.1"
+  spec.summary      = "A short description of FWFinish."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  This is library for ios testDemo
                    DESC
 
-  spec.homepage     = "https://github.com/annt2020/FWFinish.git"
+  spec.homepage     = "http://EXAMPLE/FWFinish"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/annt2020/FWFinish.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://EXAMPLE/FWFinish.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
