@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FWFinish"
-  spec.version      = "0.1.0"
+  spec.version      = '0.1.0'
   spec.summary      = "A Test funtion in swift"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
-
+   spec.platform     = :ios, "12.0"
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/annt2020/FWFinish.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/annt2020/FWFinish.git", :branch => "master", :tag => '0.1.0' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "FWFinish"
-  spec.exclude_files = "FWFinish"
+  spec.source_files  = 'FWFinish/*.{h,m,swift}'
+  spec.swift_version = "4.2" 
+
+  # spec.exclude_files = "FWFinish"
 
   # spec.public_header_files = "Classes/**/*.h"
 
